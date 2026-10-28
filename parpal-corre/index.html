@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#061a4c">
+  <meta name="description" content="Celebramos cada kilómetro del equipo PARPAL en la Media Maratón de Bucaramanga 2026. Consulta los resultados de 21 km, 10,5 km y 6 km.">
+  <meta property="og:title" content="PARPAL corre · Cada kilómetro cuenta">
+  <meta property="og:description" content="Un equipo. Una meta. Muchas historias. Resultados de Bucaramanga 2026.">
+  <meta property="og:type" content="website">
+  <title>PARPAL corre · Bucaramanga 2026</title>
+  <link rel="icon" type="image/svg+xml" href="assets/parpal-logo.svg">
+  <link rel="stylesheet" href="styles.css">
+  <script src="data.js" defer></script>
+  <script src="photos.js" defer></script>
+  <script src="carousel.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#resultados">Ir a los resultados</a>
+  <header class="site-header" id="inicio">
+    <div class="header-inner wrap">
+      <a class="brand" href="#inicio" aria-label="PARPAL corre, inicio">
+        <span class="brand-shield" aria-hidden="true"><img src="assets/parpal-logo.svg" alt="" width="2258" height="2193"></span>
+        <span class="brand-type">PARPAL<small>engineers &amp; constructors</small></span>
+      </a>
+      <nav aria-label="Navegación principal">
+        <a href="#equipo">Equipo</a><a class="nav-results" href="#resultados">Resultados</a>
+        <a class="corporate-link" href="https://parpalco.com/" target="_blank" rel="noopener noreferrer">PARPAL <span aria-hidden="true"><svg class="icon icon-arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-media carousel" role="region" aria-roledescription="carrusel" aria-label="Fotos del equipo PARPAL">
+        <div class="carousel-stage" id="carousel-stage">
+          <div class="carousel-slide is-active" role="group" aria-roledescription="diapositiva" aria-label="1 de 1">
+            <img src="assets/equipo-carrera-01.jpeg" alt="El equipo PARPAL reunido con sus medallas en la Media Maratón de Bucaramanga 2026." width="1600" height="1204" fetchpriority="high">
+          </div>
+        </div>
+        <p class="image-note" id="photo-caption">Equipo PARPAL · Bucaramanga 2026</p>
+        <div class="carousel-controls" id="carousel-controls" hidden>
+          <div class="carousel-dots" id="photo-dots" role="group" aria-label="Elegir foto"></div>
+          <button type="button" class="carousel-pause sr-only" id="photo-pause" aria-label="Pausar cambio automático" aria-pressed="false">Pausar</button>
+        </div>
+        <p class="sr-only" id="photo-status" role="status" aria-live="polite" aria-atomic="true"></p>
+      </div>
+      <div class="hero-inner wrap">
+        <div class="hero-copy">
+          <p class="eyebrow">PARPAL CORRE <span>·</span> BUCARAMANGA 2026</p>
+          <h1 id="hero-title" class="hero-title-intro" aria-label="Cada kilómetro cuenta">
+            <span class="intro-speed" aria-hidden="true"><b></b><b></b><b></b><b></b><b></b><b></b></span>
+            <span class="intro-word" aria-hidden="true">CADA</span>
+            <span class="intro-word intro-word-yellow" aria-hidden="true">KILÓMETRO</span>
+            <span class="intro-word" aria-hidden="true">CUENTA<span class="title-dot">.</span></span>
+          </h1>
+          <p class="hero-subtitle">Un equipo. Una meta.<br class="mobile-break"> Muchas historias.</p>
+          <a class="button button-yellow" href="#resultados">Ver resultados <span aria-hidden="true"><svg class="icon icon-arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></span></a>
+          <p class="race-date"><span aria-hidden="true">—</span> Media Maratón de Bucaramanga · 18 oct. 2026</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats-section" id="equipo" aria-label="El equipo en cifras">
+      <div class="stats wrap">
+        <div class="stat stat-total"><span class="stat-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><circle cx="24" cy="12" r="7"/><circle cx="8" cy="17" r="5"/><circle cx="40" cy="17" r="5"/><path d="M12 44V32a12 12 0 0 1 24 0v12H12ZM0 42V30a8 8 0 0 1 10-8M48 42V30a8 8 0 0 0-10-8"/></svg></span><strong id="total-count">28</strong><span>resultados<br>verificados</span></div>
+        <a class="stat" href="#resultados" data-distance-link="21"><span class="distance-mark" aria-hidden="true">21<small>K</small></span><strong id="count-21">6</strong><span>en<br>21 km</span><span class="stat-arrow" aria-hidden="true"><svg class="icon icon-arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></span></a>
+        <a class="stat" href="#resultados" data-distance-link="10.5"><span class="distance-mark" aria-hidden="true">10,5<small>K</small></span><strong id="count-10">17</strong><span>en<br>10,5 km</span><span class="stat-arrow" aria-hidden="true"><svg class="icon icon-arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></span></a>
+        <a class="stat" href="#resultados" data-distance-link="6"><span class="distance-mark" aria-hidden="true">6<small>K</small></span><strong id="count-6">5</strong><span>en<br>6 km</span><span class="stat-arrow" aria-hidden="true"><svg class="icon icon-arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></span></a>
+      </div>
+    </section>
+
+    <section class="results-section wrap" id="resultados" aria-labelledby="results-title">
+      <div class="section-heading"><div><p class="eyebrow dark-eyebrow">EL ESFUERZO NOS UNE</p><h2 id="results-title">Nuestro equipo<br class="mobile-break"> en la meta</h2></div><span class="edition">BUCARAMANGA <strong>2026</strong></span></div>
+      <div class="results-card">
+        <div class="toolbar">
+          <div class="filters" role="group" aria-label="Filtrar resultados por distancia">
+            <button type="button" data-distance="21" aria-pressed="true">21 km</button>
+            <button type="button" data-distance="10.5" aria-pressed="false">10,5 km</button>
+            <button type="button" data-distance="6" aria-pressed="false">6 km</button>
+            <button type="button" data-distance="all" aria-pressed="false">Todos</button>
+          </div>
+          <label class="search"><svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><span class="sr-only">Buscar por nombre o dorsal</span><input id="search" type="search" placeholder="Buscar por nombre o dorsal…" autocomplete="off"></label>
+        </div>
+        <div class="results-meta"><p id="result-count" role="status" aria-live="polite"></p><label class="sort-control">Ordenar por <select id="sort"><option value="net">Tiempo real</option><option value="official">Tiempo oficial</option><option value="name">Nombre</option></select></label></div>
+        <div class="table-container">
+          <table>
+            <caption class="sr-only">Resultados del equipo PARPAL. Los tiempos están expresados en horas, minutos y segundos.</caption>
+            <thead><tr><th scope="col">NOMBRE</th><th scope="col">DISTANCIA</th><th scope="col">DORSAL</th><th scope="col" class="time-col">TIEMPO OFICIAL</th><th scope="col" class="time-col">TIEMPO REAL</th></tr></thead>
+            <tbody id="results-body"></tbody>
+          </table>
+          <div class="empty-state" id="empty-state" hidden><span aria-hidden="true"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg></span><h3>No encontramos coincidencias</h3><p>Prueba otro nombre, un dorsal o la opción «Todos».</p><button class="button button-navy" id="reset-search" type="button">Ver todos los resultados</button></div>
+        </div>
+        <noscript><p class="noscript-message">Activa JavaScript para consultar los resultados y utilizar los filtros. También puedes verlos en el enlace a Finalap al pie de la página.</p></noscript>
+        <div class="table-footer"><span>Todos los esfuerzos cuentan.</span><a href="https://live.finalap.com/resultados/media-maraton-de-bucaramanga-2026-" target="_blank" rel="noopener noreferrer">Ver fuente oficial <span aria-hidden="true"><svg class="icon icon-arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></span></a></div>
+      </div>
+      <div class="data-notes"><p><strong>¿Cuál es la diferencia?</strong> El tiempo oficial se cuenta desde la salida de la prueba; el tiempo real, desde el paso del corredor por la salida. Ordenamos por tiempo real dentro de cada distancia.</p><p>Datos consultados el <time datetime="2026-10-27">27 de octubre de 2026</time>. Esta página muestra una copia de los resultados; no se actualiza automáticamente.</p></div>
+      <details class="pending"><summary>Participantes por confirmar <span id="pending-count">2</span></summary><p>Estas personas están en la lista del equipo, pero no se encontró un resultado verificable. No se les ha asignado distancia ni tiempo.</p><ul id="pending-list"></ul></details>
+    </section>
+
+    <section class="team-banner" aria-labelledby="team-title"><div class="wrap team-banner-inner"><div><p class="eyebrow">ORGULLO PARPAL</p><h2 id="team-title">El logro es de todos.</h2><p>En cada distancia, la misma determinación.<br>Gracias por llevar el espíritu del equipo hasta la meta.</p></div><a class="button button-outline" href="#inicio">Volver al inicio <span aria-hidden="true"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 20V4m-7 7 7-7 7 7"/></svg></span></a></div></section>
+  </main>
+  <footer class="site-footer wrap"><span><strong>PARPAL</strong> · Engineers &amp; Constructors</span><span>Media Maratón de Bucaramanga 2026</span><a href="https://parpalco.com/" target="_blank" rel="noopener noreferrer">parpalco.com <svg class="icon icon-arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></a></footer>
+</body>
+</html>
