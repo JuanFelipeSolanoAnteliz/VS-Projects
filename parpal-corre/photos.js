@@ -162,6 +162,13 @@ window.PARPAL_GALLERY = {
       fit: 'contain',
       position: 'center'
     },
+      {
+      src: 'assets/tatiana.JPEG',
+      alt: 'Tatiana en la Media Maratón FCV 2026.',
+      caption: 'Tatiana · Media Maratón FCV 2026',
+      fit: 'contain',
+      position: 'center'
+    },
   
   
 
