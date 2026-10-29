@@ -160,7 +160,7 @@ window.PARPAL_RESULTS = [
     "distance": 10.5,
     "bib": "4163",
     "official": "2:11:40",
-    "net": "2:11:40"
+    "net": "1:22:26"
   },
   {
     "name": "DUVAN ALEJANDRO MORENO LÓPEZ",
